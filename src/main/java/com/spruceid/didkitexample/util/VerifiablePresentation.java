@@ -58,9 +58,9 @@ public class VerifiablePresentation {
         try {
             final DIDKitOptions options = new DIDKitOptions(
                     "assertionMethod",
-                    null,
-                    null,
-                    null
+                    "did:key:z6Mkpdzex9ci2amM4EvoKW2kjiRGzySSoK5kZfKc6oBmH9w5#z6Mkpdzex9ci2amM4EvoKW2kjiRGzySSoK5kZfKc6oBmH9w5",
+                    challenge,
+                    Resources.baseUrl
             );
             final String vcStr = mapper.writeValueAsString(vc);
             final String optionsStr = mapper.writeValueAsString(options);
