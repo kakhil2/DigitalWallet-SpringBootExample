@@ -1,0 +1,28 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    {
+      "@id": "https://w3id.org/security#publicKeyJwk",
+      "@type": "@json"
+    }
+  ],
+  "id": "did:web:c430-45-251-232-79.ngrok-free.app",
+  "verificationMethod": [
+    {
+      "id": "did:web:c430-45-251-232-79.ngrok-free.app#_t-v-Ep7AtkELhhvAzCCDzy1O5Bn_z1CVFv9yiRXdHY",
+      "type": "Ed25519VerificationKey2018",
+      "controller": "did:web:c430-45-251-232-79.ngrok-free.app",
+      "publicKeyJwk": {
+        "kty": "OKP",
+        "crv": "Ed25519",
+        "x": "2yv3J-Sf263OmwDLS9uFPTRD0PzbvfBGKLiSnPHtXIU"
+      }
+    }
+  ],
+  "authentication": [
+    "did:web:c430-45-251-232-79.ngrok-free.app#_t-v-Ep7AtkELhhvAzCCDzy1O5Bn_z1CVFv9yiRXdHY"
+  ],
+  "assertionMethod": [
+    "did:web:c430-45-251-232-79.ngrok-free.app#_t-v-Ep7AtkELhhvAzCCDzy1O5Bn_z1CVFv9yiRXdHY"
+  ]
+}

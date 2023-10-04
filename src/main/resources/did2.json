@@ -1,0 +1,31 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    {
+      "Ed25519VerificationKey2018": "https://w3id.org/security#Ed25519VerificationKey2018",
+      "publicKeyJwk": {
+        "@id": "https://w3id.org/security#publicKeyJwk",
+        "@type": "@json"
+      }
+    }
+  ],
+  "id": "did:web:a59d-45-251-232-79.ngrok-free.app",
+  "verificationMethod": [
+    {
+      "id": "did:web:a59d-45-251-232-79.ngrok-free.app#z6Mkpdzex9ci2amM4EvoKW2kjiRGzySSoK5kZfKc6oBmH9w5",
+      "type": "Ed25519VerificationKey2018",
+      "controller": "did:web:a59d-45-251-232-79.ngrok-free.app",
+      "publicKeyJwk": {
+        "kty": "OKP",
+        "crv": "Ed25519",
+        "x": "l1TbM1_g7kJj2pRgH4d-6DYbS83GlvPy94Z9IOEEweA"
+      }
+    }
+  ],
+  "authentication": [
+    "did:web:a59d-45-251-232-79.ngrok-free.app#z6Mkpdzex9ci2amM4EvoKW2kjiRGzySSoK5kZfKc6oBmH9w5"
+  ],
+  "assertionMethod": [
+    "did:web:a59d-45-251-232-79.ngrok-free.app#z6Mkpdzex9ci2amM4EvoKW2kjiRGzySSoK5kZfKc6oBmH9w5"
+  ]
+}
